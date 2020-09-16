@@ -1,0 +1,109 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.menu {
+    background:#42a5f5 ;
+   display: flex;
+   padding: 10px;
+   overflow: hidden;
+}
+.menu:nth-child(){
+
+    justify-content:flex-end ;
+
+    
+}
+
+
+.menu ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 0px;
+    width: 70%;
+    margin-left: 500px;
+} 
+.menu img{
+    border: solid 3px black;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    padding: 2px;
+    
+
+}
+.menu ul li {
+    margin-right: 20px;
+    border-right: solid 2px #757575 ;
+    padding-right: 5px;
+}
+
+section {
+  width: 100%;
+  height: 400px;
+    background-image: url(../img/48088.jpg);
+  background-position: center;
+  background-size: cover; 
+    
+}
+.text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.text-section p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.text-section button {
+    
+    padding: 10px;
+    width: 250px;
+    background: hotpink;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.mission {
+
+    margin-top: 100px;
+    flex-flow: nowrap column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission p {
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+   
+
+}
+.people {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil img {
+    width: 200px;
+    height: 150px;
+    margin-left: 40px;
+    
+}
+
+.perfil  {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
