@@ -77,6 +77,7 @@ section {
 .mission {
 
     margin-top: 100px;
+    margin-bottom: 100px;
     flex-flow: nowrap column;
     display: flex;
     justify-content: center;
