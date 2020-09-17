@@ -141,7 +141,33 @@ footer {
 }
 
 .footer-items {
-    
-    border: solid 2px blue;
 
+    /* border: solid 2px blue; */
+
+}
+.footer-items p{
+    color: rgb(190, 181, 181);
+}
+.face img {
+    height: 25px;
+    width: 25px;
+}
+.twit img {
+    height: 30px;
+    width: 30px;
+
+}
+.skype img {
+    height: 30px;
+    width: 30px;
+
+}
+.colon img {
+    height: 30px;
+    width: 30px;
+
+}
+.social-media {
+    display: flex;
+    justify-content: space-around;
 }
