@@ -11,12 +11,7 @@ body{
    padding: 10px;
    overflow: hidden;
 }
-.menu:nth-child(){
 
-    justify-content:flex-end ;
-
-    
-}
 
 
 .menu ul{
@@ -26,8 +21,8 @@ body{
     align-items: center;
     /* justify-content: space-evenly; */
     padding: 0px;
-    width: 70%;
-    margin-left: 500px;
+    width: 100%;
+    margin-left: 50px;
 } 
 .menu img{
     border: solid 3px black;
@@ -95,6 +90,8 @@ section {
     justify-content: center;
     background: silver;
     padding-top: 50px;
+    /* margin-bottom: 100px; */
+    padding-bottom: 50px;
 }
 
 .perfil img {
@@ -122,11 +119,16 @@ section {
     display: flex;
     height: 100px;
     padding: 20px;
-    background: hotpink;}
+    background: hotpink;
+    /* margin-top: 100px; */
+align-items: center;
+justify-content: space-evenly;
+
+}
 
 .button2 {
      
-        height: 50px;
+        height: 40px;
         padding: 10px;
         width: 250px;
         background: rgb(240, 11, 125);
@@ -170,4 +172,29 @@ footer {
 .social-media {
     display: flex;
     justify-content: space-around;
+}
+
+
+/************responsive*********/
+@media (max-width: 700px) {
+    .advertisers {
+      flex-flow: row wrap;
+      width: 100%;
+    }
+    /* .menu{
+        flex-flow: row wrap;
+
+    } */
+    .people{
+        flex-flow: row wrap;
+        width: 100%;
+
+    }
+    footer {
+      display: none;
+    }
+
+    .text-section p {
+        text-align: center;
+    }
 }
