@@ -100,13 +100,48 @@ section {
 .perfil img {
     width: 200px;
     height: 150px;
-    margin-left: 15px;
+    margin-right: 15px;
     
 }
 
 .perfil span {
     font-weight: bold;
 
-  
+}
+.head-perfil{
+    margin-top: 100px;
+    
+    flex-flow: nowrap column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: silver;
+} 
+
+.advertisers {
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    background: hotpink;}
+
+.button2 {
+     
+        height: 50px;
+        padding: 10px;
+        width: 250px;
+        background: rgb(240, 11, 125);
+        border-radius: 20px;
+        color: whitesmoke;
+        font-size: 15px;
+    
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-items {
+    
+    border: solid 2px blue;
 
 }
